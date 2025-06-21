@@ -6,10 +6,7 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "NODE_ENV": "development"
-      }
+      "distribution": "internal"
     },
     "preview": {
       "distribution": "internal",
@@ -17,9 +14,6 @@
         "buildType": "apk",
         "image": "ubuntu-22.04-jdk-17-ndk-r26b",
         "resourceClass": "medium"
-      },
-      "env": {
-        "NODE_ENV": "production"
       }
     },
     "production": {
@@ -27,9 +21,6 @@
         "buildType": "app-bundle",
         "image": "ubuntu-22.04-jdk-17-ndk-r26b",
         "resourceClass": "medium"
-      },
-      "env": {
-        "NODE_ENV": "production"
       }
     },
     "production-apk": {
@@ -37,9 +28,11 @@
         "buildType": "apk",
         "image": "ubuntu-22.04-jdk-17-ndk-r26b",
         "resourceClass": "medium"
-      },
-      "env": {
-        "NODE_ENV": "production"
+      }
+    },
+    "simple-apk": {
+      "android": {
+        "buildType": "apk"
       }
     }
   },
