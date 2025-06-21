@@ -29,7 +29,7 @@ interface Quote {
 }
 
 // GitHub Raw URL for quotes data
-const GITHUB_QUOTES_URL = 'https://raw.githubusercontent.com/your-username/qoute/main/my-quote-app/github-database/quotes.json';
+const GITHUB_QUOTES_URL = 'https://raw.githubusercontent.com/chanho-krc/qoute/main/my-quote-app/github-database/quotes.json';
 
 function App() {
   const [currentQuote, setCurrentQuote] = useState<Quote | null>(null);
