@@ -1,0 +1,44 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 그라데이션 -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A5F;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="quote" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 원형 배경 -->
+  <circle cx="256" cy="256" r="240" fill="url(#bg)" stroke="#90CAF9" stroke-width="8"/>
+  
+  <!-- 별들 장식 -->
+  <g fill="#FFD700" opacity="0.8">
+    <polygon points="100,120 110,140 130,140 116,152 122,172 100,160 78,172 84,152 70,140 90,140" />
+    <polygon points="400,100 406,112 418,112 409,120 412,132 400,126 388,132 391,120 382,112 394,112" />
+    <polygon points="420,300 426,312 438,312 429,320 432,332 420,326 408,332 411,320 402,312 414,312" />
+    <polygon points="80,350 86,362 98,362 89,370 92,382 80,376 68,382 71,370 62,362 74,362" />
+  </g>
+  
+  <!-- 큰 따옴표 -->
+  <g fill="url(#quote)" stroke="#FFF" stroke-width="4">
+    <!-- 첫 번째 따옴표 -->
+    <path d="M 180 200 Q 160 180 160 220 Q 160 260 180 280 Q 200 260 200 240 Q 200 220 180 220 Q 160 200 180 200 Z" />
+    
+    <!-- 두 번째 따옴표 -->
+    <path d="M 280 200 Q 260 180 260 220 Q 260 260 280 280 Q 300 260 300 240 Q 300 220 280 220 Q 260 200 280 200 Z" />
+  </g>
+  
+  <!-- 중앙 별 -->
+  <polygon points="256,320 266,340 286,340 272,352 278,372 256,360 234,372 240,352 226,340 246,340" fill="#FFD700" stroke="#FFF" stroke-width="2"/>
+  
+  <!-- 반짝이는 효과 -->
+  <g fill="#FFF" opacity="0.6">
+    <circle cx="200" cy="150" r="3"/>
+    <circle cx="350" cy="180" r="2"/>
+    <circle cx="320" cy="380" r="3"/>
+    <circle cx="150" cy="320" r="2"/>
+  </g>
+</svg> 
