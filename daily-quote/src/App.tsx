@@ -4,6 +4,7 @@ import { CssBaseline, Container, Paper, Typography, Box, CircularProgress, Butto
 import RefreshIcon from '@mui/icons-material/Refresh';
 import CategoryIcon from '@mui/icons-material/Category';
 import AddIcon from '@mui/icons-material/Add';
+import SyncIcon from '@mui/icons-material/Sync';
 import QuoteSubmission from './QuoteSubmission';
 
 const theme = createTheme({
@@ -305,31 +306,78 @@ function App() {
                   - {currentQuote.author}
                 </Typography>
 
-                <Box sx={{ display: 'flex', gap: 1, justifyContent: 'center', flexWrap: 'wrap' }}>
+                <Box sx={{ 
+                  display: 'flex', 
+                  gap: { xs: 1.5, md: 2 }, 
+                  justifyContent: 'center', 
+                  flexWrap: 'wrap', 
+                  mt: 3,
+                  px: { xs: 1, md: 0 }
+                }}>
                   <Button 
-                    variant="outlined" 
+                    variant="contained" 
                     onClick={handleRefresh}
                     startIcon={<RefreshIcon />}
+                    sx={{
+                      borderRadius: 25,
+                      px: { xs: 2.5, md: 3 },
+                      py: 1.5,
+                      fontWeight: 'bold',
+                      fontSize: { xs: '0.85rem', md: '1rem' },
+                      background: 'linear-gradient(45deg, #2196F3, #21CBF3)',
+                      boxShadow: '0 3px 5px 2px rgba(33, 203, 243, .3)',
+                      transition: 'all 0.3s ease',
+                      '&:hover': {
+                        background: 'linear-gradient(45deg, #1976D2, #1BA3D1)',
+                        transform: 'translateY(-2px)',
+                        boxShadow: '0 5px 8px 2px rgba(33, 203, 243, .4)',
+                      }
+                    }}
                   >
                     새 명언 보기
                   </Button>
                   
                   <Button 
-                    variant="text" 
+                    variant="contained" 
                     onClick={fetchQuotesFromGitHub}
-                    size="small"
+                    startIcon={<SyncIcon />}
+                    sx={{
+                      borderRadius: 25,
+                      px: { xs: 2.5, md: 3 },
+                      py: 1.5,
+                      fontWeight: 'bold',
+                      fontSize: { xs: '0.85rem', md: '1rem' },
+                      background: 'linear-gradient(45deg, #4CAF50, #8BC34A)',
+                      boxShadow: '0 3px 5px 2px rgba(76, 175, 80, .3)',
+                      transition: 'all 0.3s ease',
+                      '&:hover': {
+                        background: 'linear-gradient(45deg, #388E3C, #689F38)',
+                        transform: 'translateY(-2px)',
+                        boxShadow: '0 5px 8px 2px rgba(76, 175, 80, .4)',
+                      }
+                    }}
                   >
-                    🔄 GitHub 동기화
+                    GitHub 동기화
                   </Button>
                   
                   <Button 
                     variant="contained" 
                     onClick={() => setSubmissionOpen(true)}
                     startIcon={<AddIcon />}
-                    size="small"
-                    sx={{ 
-                      background: 'linear-gradient(45deg, #FF6B6B, #4ECDC4)',
-                      fontWeight: 'bold'
+                    sx={{
+                      borderRadius: 25,
+                      px: { xs: 2.5, md: 3 },
+                      py: 1.5,
+                      fontWeight: 'bold',
+                      fontSize: { xs: '0.85rem', md: '1rem' },
+                      background: 'linear-gradient(45deg, #FF6B6B, #FF8E53)',
+                      boxShadow: '0 3px 5px 2px rgba(255, 107, 107, .3)',
+                      transition: 'all 0.3s ease',
+                      '&:hover': {
+                        background: 'linear-gradient(45deg, #F44336, #FF7043)',
+                        transform: 'translateY(-2px)',
+                        boxShadow: '0 5px 8px 2px rgba(255, 107, 107, .4)',
+                      }
                     }}
                   >
                     명언 제출
