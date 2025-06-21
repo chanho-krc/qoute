@@ -1,6 +1,6 @@
 [
   {
-    "_id": "remote_001",
+    "_id": "remote_101",
     "text": "성공은 준비된 자에게 찾아오는 기회다.",
     "author": "루이 파스퇴르",
     "category": "성공",
@@ -8,7 +8,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_002",
+    "_id": "remote_102",
     "text": "노력은 절대 배신하지 않는다.",
     "author": "이치로",
     "category": "성공",
@@ -16,7 +16,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_003",
+    "_id": "remote_103",
     "text": "재능은 노력으로 완성된다.",
     "author": "박지성",
     "category": "성공",
@@ -24,7 +24,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_004",
+    "_id": "remote_104",
     "text": "로마는 하루아침에 이루어지지 않았다.",
     "author": "서양 속담",
     "category": "성공",
@@ -32,7 +32,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_005",
+    "_id": "remote_105",
     "text": "실패는 성공의 어머니다.",
     "author": "한국 속담",
     "category": "성공",
@@ -40,7 +40,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_006",
+    "_id": "remote_106",
     "text": "99%의 노력과 1%의 영감이 천재를 만든다.",
     "author": "토마스 에디슨",
     "category": "성공",
@@ -48,7 +48,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_007",
+    "_id": "remote_107",
     "text": "승리자는 절대 포기하지 않고, 포기하는 자는 절대 승리하지 못한다.",
     "author": "빈스 롬바디",
     "category": "성공",
@@ -56,7 +56,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_008",
+    "_id": "remote_108",
     "text": "기회는 준비된 자에게만 온다.",
     "author": "루이 파스퇴르",
     "category": "성공",
@@ -64,7 +64,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_009",
+    "_id": "remote_109",
     "text": "성공이란 열정을 잃지 않고 실패를 거듭하는 것이다.",
     "author": "윈스턴 처칠",
     "category": "성공",
@@ -72,7 +72,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_010",
+    "_id": "remote_110",
     "text": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음이 옳다.",
     "author": "헨리 포드",
     "category": "성공",
@@ -80,7 +80,727 @@
     "source": "remote"
   },
   {
-    "_id": "remote_101",
+    "_id": "remote_111",
+    "text": "성공의 비결은 단 하나, 자신이 사랑하는 일을 찾아 열정적으로 하는 것이다.",
+    "author": "스티브 잡스",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_112",
+    "text": "거대한 참나무도 작은 도토리에서 자란다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_113",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_114",
+    "text": "성공한 사람이 되려고 노력하기보다는 가치 있는 사람이 되려고 노력하라.",
+    "author": "알베르트 아인슈타인",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_115",
+    "text": "위대한 일들은 한 순간에 이루어지는 것이 아니라 작은 일들이 모여서 이루어진다.",
+    "author": "빈센트 반 고흐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_116",
+    "text": "성공하는 사람은 실패에서 배우고, 실패하는 사람은 성공에서 배운다.",
+    "author": "워렌 버핏",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_117",
+    "text": "완벽함은 달성해야 할 목표가 아니라 추구해야 할 방향이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_118",
+    "text": "성공은 마지막 순간에 포기하지 않는 것이다.",
+    "author": "나폴레옹 힐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_119",
+    "text": "행운은 준비성과 기회가 만나는 곳에서 생긴다.",
+    "author": "세네카",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_120",
+    "text": "성공의 열쇠는 실패를 두려워하지 않는 것이다.",
+    "author": "빌 게이츠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_121",
+    "text": "성공은 준비된 자에게 찾아오는 기회다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_122",
+    "text": "노력은 절대 배신하지 않는다.",
+    "author": "이치로",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_123",
+    "text": "재능은 노력으로 완성된다.",
+    "author": "박지성",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_124",
+    "text": "로마는 하루아침에 이루어지지 않았다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_125",
+    "text": "실패는 성공의 어머니다.",
+    "author": "한국 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_126",
+    "text": "99%의 노력과 1%의 영감이 천재를 만든다.",
+    "author": "토마스 에디슨",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_127",
+    "text": "승리자는 절대 포기하지 않고, 포기하는 자는 절대 승리하지 못한다.",
+    "author": "빈스 롬바디",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_128",
+    "text": "기회는 준비된 자에게만 온다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_129",
+    "text": "성공이란 열정을 잃지 않고 실패를 거듭하는 것이다.",
+    "author": "윈스턴 처칠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_130",
+    "text": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음이 옳다.",
+    "author": "헨리 포드",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_131",
+    "text": "성공의 비결은 단 하나, 자신이 사랑하는 일을 찾아 열정적으로 하는 것이다.",
+    "author": "스티브 잡스",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_132",
+    "text": "거대한 참나무도 작은 도토리에서 자란다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_133",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_134",
+    "text": "성공한 사람이 되려고 노력하기보다는 가치 있는 사람이 되려고 노력하라.",
+    "author": "알베르트 아인슈타인",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_135",
+    "text": "위대한 일들은 한 순간에 이루어지는 것이 아니라 작은 일들이 모여서 이루어진다.",
+    "author": "빈센트 반 고흐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_136",
+    "text": "성공하는 사람은 실패에서 배우고, 실패하는 사람은 성공에서 배운다.",
+    "author": "워렌 버핏",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_137",
+    "text": "완벽함은 달성해야 할 목표가 아니라 추구해야 할 방향이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_138",
+    "text": "성공은 마지막 순간에 포기하지 않는 것이다.",
+    "author": "나폴레옹 힐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_139",
+    "text": "행운은 준비성과 기회가 만나는 곳에서 생긴다.",
+    "author": "세네카",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_140",
+    "text": "성공의 열쇠는 실패를 두려워하지 않는 것이다.",
+    "author": "빌 게이츠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_141",
+    "text": "성공은 준비된 자에게 찾아오는 기회다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_142",
+    "text": "노력은 절대 배신하지 않는다.",
+    "author": "이치로",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_143",
+    "text": "재능은 노력으로 완성된다.",
+    "author": "박지성",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_144",
+    "text": "로마는 하루아침에 이루어지지 않았다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_145",
+    "text": "실패는 성공의 어머니다.",
+    "author": "한국 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_146",
+    "text": "99%의 노력과 1%의 영감이 천재를 만든다.",
+    "author": "토마스 에디슨",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_147",
+    "text": "승리자는 절대 포기하지 않고, 포기하는 자는 절대 승리하지 못한다.",
+    "author": "빈스 롬바디",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_148",
+    "text": "기회는 준비된 자에게만 온다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_149",
+    "text": "성공이란 열정을 잃지 않고 실패를 거듭하는 것이다.",
+    "author": "윈스턴 처칠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_150",
+    "text": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음이 옳다.",
+    "author": "헨리 포드",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_151",
+    "text": "성공의 비결은 단 하나, 자신이 사랑하는 일을 찾아 열정적으로 하는 것이다.",
+    "author": "스티브 잡스",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_152",
+    "text": "거대한 참나무도 작은 도토리에서 자란다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_153",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_154",
+    "text": "성공한 사람이 되려고 노력하기보다는 가치 있는 사람이 되려고 노력하라.",
+    "author": "알베르트 아인슈타인",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_155",
+    "text": "위대한 일들은 한 순간에 이루어지는 것이 아니라 작은 일들이 모여서 이루어진다.",
+    "author": "빈센트 반 고흐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_156",
+    "text": "성공하는 사람은 실패에서 배우고, 실패하는 사람은 성공에서 배운다.",
+    "author": "워렌 버핏",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_157",
+    "text": "완벽함은 달성해야 할 목표가 아니라 추구해야 할 방향이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_158",
+    "text": "성공은 마지막 순간에 포기하지 않는 것이다.",
+    "author": "나폴레옹 힐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_159",
+    "text": "행운은 준비성과 기회가 만나는 곳에서 생긴다.",
+    "author": "세네카",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_160",
+    "text": "성공의 열쇠는 실패를 두려워하지 않는 것이다.",
+    "author": "빌 게이츠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_161",
+    "text": "성공은 준비된 자에게 찾아오는 기회다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_162",
+    "text": "노력은 절대 배신하지 않는다.",
+    "author": "이치로",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_163",
+    "text": "재능은 노력으로 완성된다.",
+    "author": "박지성",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_164",
+    "text": "로마는 하루아침에 이루어지지 않았다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_165",
+    "text": "실패는 성공의 어머니다.",
+    "author": "한국 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_166",
+    "text": "99%의 노력과 1%의 영감이 천재를 만든다.",
+    "author": "토마스 에디슨",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_167",
+    "text": "승리자는 절대 포기하지 않고, 포기하는 자는 절대 승리하지 못한다.",
+    "author": "빈스 롬바디",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_168",
+    "text": "기회는 준비된 자에게만 온다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_169",
+    "text": "성공이란 열정을 잃지 않고 실패를 거듭하는 것이다.",
+    "author": "윈스턴 처칠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_170",
+    "text": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음이 옳다.",
+    "author": "헨리 포드",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_171",
+    "text": "성공의 비결은 단 하나, 자신이 사랑하는 일을 찾아 열정적으로 하는 것이다.",
+    "author": "스티브 잡스",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_172",
+    "text": "거대한 참나무도 작은 도토리에서 자란다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_173",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_174",
+    "text": "성공한 사람이 되려고 노력하기보다는 가치 있는 사람이 되려고 노력하라.",
+    "author": "알베르트 아인슈타인",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_175",
+    "text": "위대한 일들은 한 순간에 이루어지는 것이 아니라 작은 일들이 모여서 이루어진다.",
+    "author": "빈센트 반 고흐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_176",
+    "text": "성공하는 사람은 실패에서 배우고, 실패하는 사람은 성공에서 배운다.",
+    "author": "워렌 버핏",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_177",
+    "text": "완벽함은 달성해야 할 목표가 아니라 추구해야 할 방향이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_178",
+    "text": "성공은 마지막 순간에 포기하지 않는 것이다.",
+    "author": "나폴레옹 힐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_179",
+    "text": "행운은 준비성과 기회가 만나는 곳에서 생긴다.",
+    "author": "세네카",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_180",
+    "text": "성공의 열쇠는 실패를 두려워하지 않는 것이다.",
+    "author": "빌 게이츠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_181",
+    "text": "성공은 준비된 자에게 찾아오는 기회다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_182",
+    "text": "노력은 절대 배신하지 않는다.",
+    "author": "이치로",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_183",
+    "text": "재능은 노력으로 완성된다.",
+    "author": "박지성",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_184",
+    "text": "로마는 하루아침에 이루어지지 않았다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_185",
+    "text": "실패는 성공의 어머니다.",
+    "author": "한국 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_186",
+    "text": "99%의 노력과 1%의 영감이 천재를 만든다.",
+    "author": "토마스 에디슨",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_187",
+    "text": "승리자는 절대 포기하지 않고, 포기하는 자는 절대 승리하지 못한다.",
+    "author": "빈스 롬바디",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_188",
+    "text": "기회는 준비된 자에게만 온다.",
+    "author": "루이 파스퇴르",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_189",
+    "text": "성공이란 열정을 잃지 않고 실패를 거듭하는 것이다.",
+    "author": "윈스턴 처칠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_190",
+    "text": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음이 옳다.",
+    "author": "헨리 포드",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_191",
+    "text": "성공의 비결은 단 하나, 자신이 사랑하는 일을 찾아 열정적으로 하는 것이다.",
+    "author": "스티브 잡스",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_192",
+    "text": "거대한 참나무도 작은 도토리에서 자란다.",
+    "author": "서양 속담",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_193",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_194",
+    "text": "성공한 사람이 되려고 노력하기보다는 가치 있는 사람이 되려고 노력하라.",
+    "author": "알베르트 아인슈타인",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_195",
+    "text": "위대한 일들은 한 순간에 이루어지는 것이 아니라 작은 일들이 모여서 이루어진다.",
+    "author": "빈센트 반 고흐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_196",
+    "text": "성공하는 사람은 실패에서 배우고, 실패하는 사람은 성공에서 배운다.",
+    "author": "워렌 버핏",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_197",
+    "text": "완벽함은 달성해야 할 목표가 아니라 추구해야 할 방향이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_198",
+    "text": "성공은 마지막 순간에 포기하지 않는 것이다.",
+    "author": "나폴레옹 힐",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_199",
+    "text": "행운은 준비성과 기회가 만나는 곳에서 생긴다.",
+    "author": "세네카",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_1100",
+    "text": "성공의 열쇠는 실패를 두려워하지 않는 것이다.",
+    "author": "빌 게이츠",
+    "category": "성공",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_201",
     "text": "인생은 가까이서 보면 비극이지만 멀리서 보면 희극이다.",
     "author": "찰리 채플린",
     "category": "인생",
@@ -88,7 +808,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_102",
+    "_id": "remote_202",
     "text": "살아있는 한 희망은 있다.",
     "author": "키케로",
     "category": "인생",
@@ -96,7 +816,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_103",
+    "_id": "remote_203",
     "text": "어제는 지나갔고, 내일은 오지 않았다. 우리에게는 오직 오늘이 있을 뿐이다.",
     "author": "마더 테레사",
     "category": "인생",
@@ -104,7 +824,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_104",
+    "_id": "remote_204",
     "text": "세 살 버릇 여든까지 간다.",
     "author": "한국 속담",
     "category": "인생",
@@ -112,7 +832,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_105",
+    "_id": "remote_205",
     "text": "나는 생각한다, 고로 존재한다.",
     "author": "데카르트",
     "category": "인생",
@@ -120,7 +840,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_106",
+    "_id": "remote_206",
     "text": "인생의 목적은 행복이다.",
     "author": "아리스토텔레스",
     "category": "인생",
@@ -128,7 +848,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_107",
+    "_id": "remote_207",
     "text": "행복은 습관이다. 그것을 몸에 지니라.",
     "author": "허버드",
     "category": "인생",
@@ -136,7 +856,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_108",
+    "_id": "remote_208",
     "text": "삶이 있는 한 희망이 있다.",
     "author": "키케로",
     "category": "인생",
@@ -144,7 +864,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_109",
+    "_id": "remote_209",
     "text": "인생은 10%의 일어나는 일과 90%의 그것에 반응하는 것이다.",
     "author": "찰스 스윈돌",
     "category": "인생",
@@ -152,7 +872,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_110",
+    "_id": "remote_210",
     "text": "가장 큰 위험은 위험을 감수하지 않는 것이다.",
     "author": "마크 저커버그",
     "category": "인생",
@@ -160,7 +880,727 @@
     "source": "remote"
   },
   {
-    "_id": "remote_201",
+    "_id": "remote_211",
+    "text": "인생은 스스로 선택하는 것이다.",
+    "author": "장 폴 사르트르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_212",
+    "text": "우리는 운명을 피할 수 없다. 단지 받아들일 뿐이다.",
+    "author": "칼 구스타프 융",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_213",
+    "text": "인생에서 가장 중요한 것은 사랑하는 것과 사랑받는 것이다.",
+    "author": "존 레논",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_214",
+    "text": "행복한 인생을 살기 위해서는 작은 것들을 사랑해야 한다.",
+    "author": "볼테르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_215",
+    "text": "인생은 짧지만 예술은 길다.",
+    "author": "히포크라테스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_216",
+    "text": "모든 인간은 죽음을 두려워하지만, 진정으로 살지 못한 것을 더 두려워해야 한다.",
+    "author": "버트런드 러셀",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_217",
+    "text": "인생의 가장 큰 영광은 넘어지지 않는 것이 아니라 넘어질 때마다 일어서는 것이다.",
+    "author": "넬슨 만델라",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_218",
+    "text": "인생은 도전이다. 그것을 맞서라.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_219",
+    "text": "인생에서 실패한 사람 중 다수는 포기할 때 성공에 얼마나 가까이 있었는지 깨닫지 못한 사람들이다.",
+    "author": "토마스 에디슨",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_220",
+    "text": "인생은 학교다. 여기서 불행은 행복보다 더 좋은 선생님이다.",
+    "author": "프리다 칼로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_221",
+    "text": "인생은 가까이서 보면 비극이지만 멀리서 보면 희극이다.",
+    "author": "찰리 채플린",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_222",
+    "text": "살아있는 한 희망은 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_223",
+    "text": "어제는 지나갔고, 내일은 오지 않았다. 우리에게는 오직 오늘이 있을 뿐이다.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_224",
+    "text": "세 살 버릇 여든까지 간다.",
+    "author": "한국 속담",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_225",
+    "text": "나는 생각한다, 고로 존재한다.",
+    "author": "데카르트",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_226",
+    "text": "인생의 목적은 행복이다.",
+    "author": "아리스토텔레스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_227",
+    "text": "행복은 습관이다. 그것을 몸에 지니라.",
+    "author": "허버드",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_228",
+    "text": "삶이 있는 한 희망이 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_229",
+    "text": "인생은 10%의 일어나는 일과 90%의 그것에 반응하는 것이다.",
+    "author": "찰스 스윈돌",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_230",
+    "text": "가장 큰 위험은 위험을 감수하지 않는 것이다.",
+    "author": "마크 저커버그",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_231",
+    "text": "인생은 스스로 선택하는 것이다.",
+    "author": "장 폴 사르트르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_232",
+    "text": "우리는 운명을 피할 수 없다. 단지 받아들일 뿐이다.",
+    "author": "칼 구스타프 융",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_233",
+    "text": "인생에서 가장 중요한 것은 사랑하는 것과 사랑받는 것이다.",
+    "author": "존 레논",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_234",
+    "text": "행복한 인생을 살기 위해서는 작은 것들을 사랑해야 한다.",
+    "author": "볼테르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_235",
+    "text": "인생은 짧지만 예술은 길다.",
+    "author": "히포크라테스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_236",
+    "text": "모든 인간은 죽음을 두려워하지만, 진정으로 살지 못한 것을 더 두려워해야 한다.",
+    "author": "버트런드 러셀",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_237",
+    "text": "인생의 가장 큰 영광은 넘어지지 않는 것이 아니라 넘어질 때마다 일어서는 것이다.",
+    "author": "넬슨 만델라",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_238",
+    "text": "인생은 도전이다. 그것을 맞서라.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_239",
+    "text": "인생에서 실패한 사람 중 다수는 포기할 때 성공에 얼마나 가까이 있었는지 깨닫지 못한 사람들이다.",
+    "author": "토마스 에디슨",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_240",
+    "text": "인생은 학교다. 여기서 불행은 행복보다 더 좋은 선생님이다.",
+    "author": "프리다 칼로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_241",
+    "text": "인생은 가까이서 보면 비극이지만 멀리서 보면 희극이다.",
+    "author": "찰리 채플린",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_242",
+    "text": "살아있는 한 희망은 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_243",
+    "text": "어제는 지나갔고, 내일은 오지 않았다. 우리에게는 오직 오늘이 있을 뿐이다.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_244",
+    "text": "세 살 버릇 여든까지 간다.",
+    "author": "한국 속담",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_245",
+    "text": "나는 생각한다, 고로 존재한다.",
+    "author": "데카르트",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_246",
+    "text": "인생의 목적은 행복이다.",
+    "author": "아리스토텔레스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_247",
+    "text": "행복은 습관이다. 그것을 몸에 지니라.",
+    "author": "허버드",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_248",
+    "text": "삶이 있는 한 희망이 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_249",
+    "text": "인생은 10%의 일어나는 일과 90%의 그것에 반응하는 것이다.",
+    "author": "찰스 스윈돌",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_250",
+    "text": "가장 큰 위험은 위험을 감수하지 않는 것이다.",
+    "author": "마크 저커버그",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_251",
+    "text": "인생은 스스로 선택하는 것이다.",
+    "author": "장 폴 사르트르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_252",
+    "text": "우리는 운명을 피할 수 없다. 단지 받아들일 뿐이다.",
+    "author": "칼 구스타프 융",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_253",
+    "text": "인생에서 가장 중요한 것은 사랑하는 것과 사랑받는 것이다.",
+    "author": "존 레논",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_254",
+    "text": "행복한 인생을 살기 위해서는 작은 것들을 사랑해야 한다.",
+    "author": "볼테르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_255",
+    "text": "인생은 짧지만 예술은 길다.",
+    "author": "히포크라테스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_256",
+    "text": "모든 인간은 죽음을 두려워하지만, 진정으로 살지 못한 것을 더 두려워해야 한다.",
+    "author": "버트런드 러셀",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_257",
+    "text": "인생의 가장 큰 영광은 넘어지지 않는 것이 아니라 넘어질 때마다 일어서는 것이다.",
+    "author": "넬슨 만델라",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_258",
+    "text": "인생은 도전이다. 그것을 맞서라.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_259",
+    "text": "인생에서 실패한 사람 중 다수는 포기할 때 성공에 얼마나 가까이 있었는지 깨닫지 못한 사람들이다.",
+    "author": "토마스 에디슨",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_260",
+    "text": "인생은 학교다. 여기서 불행은 행복보다 더 좋은 선생님이다.",
+    "author": "프리다 칼로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_261",
+    "text": "인생은 가까이서 보면 비극이지만 멀리서 보면 희극이다.",
+    "author": "찰리 채플린",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_262",
+    "text": "살아있는 한 희망은 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_263",
+    "text": "어제는 지나갔고, 내일은 오지 않았다. 우리에게는 오직 오늘이 있을 뿐이다.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_264",
+    "text": "세 살 버릇 여든까지 간다.",
+    "author": "한국 속담",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_265",
+    "text": "나는 생각한다, 고로 존재한다.",
+    "author": "데카르트",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_266",
+    "text": "인생의 목적은 행복이다.",
+    "author": "아리스토텔레스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_267",
+    "text": "행복은 습관이다. 그것을 몸에 지니라.",
+    "author": "허버드",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_268",
+    "text": "삶이 있는 한 희망이 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_269",
+    "text": "인생은 10%의 일어나는 일과 90%의 그것에 반응하는 것이다.",
+    "author": "찰스 스윈돌",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_270",
+    "text": "가장 큰 위험은 위험을 감수하지 않는 것이다.",
+    "author": "마크 저커버그",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_271",
+    "text": "인생은 스스로 선택하는 것이다.",
+    "author": "장 폴 사르트르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_272",
+    "text": "우리는 운명을 피할 수 없다. 단지 받아들일 뿐이다.",
+    "author": "칼 구스타프 융",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_273",
+    "text": "인생에서 가장 중요한 것은 사랑하는 것과 사랑받는 것이다.",
+    "author": "존 레논",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_274",
+    "text": "행복한 인생을 살기 위해서는 작은 것들을 사랑해야 한다.",
+    "author": "볼테르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_275",
+    "text": "인생은 짧지만 예술은 길다.",
+    "author": "히포크라테스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_276",
+    "text": "모든 인간은 죽음을 두려워하지만, 진정으로 살지 못한 것을 더 두려워해야 한다.",
+    "author": "버트런드 러셀",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_277",
+    "text": "인생의 가장 큰 영광은 넘어지지 않는 것이 아니라 넘어질 때마다 일어서는 것이다.",
+    "author": "넬슨 만델라",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_278",
+    "text": "인생은 도전이다. 그것을 맞서라.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_279",
+    "text": "인생에서 실패한 사람 중 다수는 포기할 때 성공에 얼마나 가까이 있었는지 깨닫지 못한 사람들이다.",
+    "author": "토마스 에디슨",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_280",
+    "text": "인생은 학교다. 여기서 불행은 행복보다 더 좋은 선생님이다.",
+    "author": "프리다 칼로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_281",
+    "text": "인생은 가까이서 보면 비극이지만 멀리서 보면 희극이다.",
+    "author": "찰리 채플린",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_282",
+    "text": "살아있는 한 희망은 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_283",
+    "text": "어제는 지나갔고, 내일은 오지 않았다. 우리에게는 오직 오늘이 있을 뿐이다.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_284",
+    "text": "세 살 버릇 여든까지 간다.",
+    "author": "한국 속담",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_285",
+    "text": "나는 생각한다, 고로 존재한다.",
+    "author": "데카르트",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_286",
+    "text": "인생의 목적은 행복이다.",
+    "author": "아리스토텔레스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_287",
+    "text": "행복은 습관이다. 그것을 몸에 지니라.",
+    "author": "허버드",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_288",
+    "text": "삶이 있는 한 희망이 있다.",
+    "author": "키케로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_289",
+    "text": "인생은 10%의 일어나는 일과 90%의 그것에 반응하는 것이다.",
+    "author": "찰스 스윈돌",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_290",
+    "text": "가장 큰 위험은 위험을 감수하지 않는 것이다.",
+    "author": "마크 저커버그",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_291",
+    "text": "인생은 스스로 선택하는 것이다.",
+    "author": "장 폴 사르트르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_292",
+    "text": "우리는 운명을 피할 수 없다. 단지 받아들일 뿐이다.",
+    "author": "칼 구스타프 융",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_293",
+    "text": "인생에서 가장 중요한 것은 사랑하는 것과 사랑받는 것이다.",
+    "author": "존 레논",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_294",
+    "text": "행복한 인생을 살기 위해서는 작은 것들을 사랑해야 한다.",
+    "author": "볼테르",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_295",
+    "text": "인생은 짧지만 예술은 길다.",
+    "author": "히포크라테스",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_296",
+    "text": "모든 인간은 죽음을 두려워하지만, 진정으로 살지 못한 것을 더 두려워해야 한다.",
+    "author": "버트런드 러셀",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_297",
+    "text": "인생의 가장 큰 영광은 넘어지지 않는 것이 아니라 넘어질 때마다 일어서는 것이다.",
+    "author": "넬슨 만델라",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_298",
+    "text": "인생은 도전이다. 그것을 맞서라.",
+    "author": "마더 테레사",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_299",
+    "text": "인생에서 실패한 사람 중 다수는 포기할 때 성공에 얼마나 가까이 있었는지 깨닫지 못한 사람들이다.",
+    "author": "토마스 에디슨",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_2100",
+    "text": "인생은 학교다. 여기서 불행은 행복보다 더 좋은 선생님이다.",
+    "author": "프리다 칼로",
+    "category": "인생",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_301",
     "text": "실패를 두려워하지 마라. 시도하지 않는 것을 두려워하라.",
     "author": "마이클 조던",
     "category": "도전",
@@ -168,7 +1608,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_202",
+    "_id": "remote_302",
     "text": "천 리 길도 한 걸음부터.",
     "author": "한국 속담",
     "category": "도전",
@@ -176,7 +1616,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_203",
+    "_id": "remote_303",
     "text": "시작이 반이다.",
     "author": "한국 속담",
     "category": "도전",
@@ -184,7 +1624,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_204",
+    "_id": "remote_304",
     "text": "불가능은 없다. 단지 시도하지 않았을 뿐이다.",
     "author": "나폴레옹",
     "category": "도전",
@@ -192,7 +1632,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_205",
+    "_id": "remote_305",
     "text": "한계는 자신이 만드는 것이다.",
     "author": "브루스 리",
     "category": "도전",
@@ -200,15 +1640,15 @@
     "source": "remote"
   },
   {
-    "_id": "remote_206",
-    "text": "포기하지 않으면 실패는 없다.",
-    "author": "토마스 에디슨",
+    "_id": "remote_306",
+    "text": "도전 없이는 발전도 없다.",
+    "author": "프랭클린 루스벨트",
     "category": "도전",
     "used": false,
     "source": "remote"
   },
   {
-    "_id": "remote_207",
+    "_id": "remote_307",
     "text": "열 번 찍어 안 넘어가는 나무 없다.",
     "author": "한국 속담",
     "category": "도전",
@@ -216,7 +1656,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_208",
+    "_id": "remote_308",
     "text": "변화를 두려워하지 마라. 성장의 기회다.",
     "author": "스티브 잡스",
     "category": "도전",
@@ -224,7 +1664,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_209",
+    "_id": "remote_309",
     "text": "위대한 일을 성취하려면 행동할 뿐만 아니라 꿈도 꾸어야 한다.",
     "author": "아나톨 프랑스",
     "category": "도전",
@@ -232,7 +1672,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_210",
+    "_id": "remote_310",
     "text": "오르막길이 힘든 이유는 정상이 그만큼 가치 있기 때문이다.",
     "author": "헨리 워드 비처",
     "category": "도전",
@@ -240,7 +1680,727 @@
     "source": "remote"
   },
   {
-    "_id": "remote_301",
+    "_id": "remote_311",
+    "text": "시련은 인간을 강하게 만든다.",
+    "author": "빅터 위고",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_312",
+    "text": "새로운 시작을 두려워하지 마라. 결국 인생은 도전의 연속이다.",
+    "author": "파울로 코엘료",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_313",
+    "text": "모든 성취는 시작하려는 결심에서 비롯된다.",
+    "author": "W. A. 워드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_314",
+    "text": "도전은 인생을 흥미롭게 만들고, 도전의 극복은 인생을 의미 있게 만든다.",
+    "author": "조슈아 마린",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_315",
+    "text": "편안함을 추구하는 것은 성장의 적이다.",
+    "author": "빌 에크하르트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_316",
+    "text": "두려움은 당신이 성장할 곳을 가리키는 나침반이다.",
+    "author": "잭 캔필드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_317",
+    "text": "위험을 감수하지 않으면 아무것도 얻을 수 없다.",
+    "author": "테드 터너",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_318",
+    "text": "모든 전문가는 한때 초보자였다.",
+    "author": "헬렌 헤이스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_319",
+    "text": "불가능해 보이는 일도 시작하면 가능해진다.",
+    "author": "넬슨 만델라",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_320",
+    "text": "도전하지 않으면 변화도 없다.",
+    "author": "버락 오바마",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_321",
+    "text": "실패를 두려워하지 마라. 시도하지 않는 것을 두려워하라.",
+    "author": "마이클 조던",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_322",
+    "text": "천 리 길도 한 걸음부터.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_323",
+    "text": "시작이 반이다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_324",
+    "text": "불가능은 없다. 단지 시도하지 않았을 뿐이다.",
+    "author": "나폴레옹",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_325",
+    "text": "한계는 자신이 만드는 것이다.",
+    "author": "브루스 리",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_326",
+    "text": "도전 없이는 발전도 없다.",
+    "author": "프랭클린 루스벨트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_327",
+    "text": "열 번 찍어 안 넘어가는 나무 없다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_328",
+    "text": "변화를 두려워하지 마라. 성장의 기회다.",
+    "author": "스티브 잡스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_329",
+    "text": "위대한 일을 성취하려면 행동할 뿐만 아니라 꿈도 꾸어야 한다.",
+    "author": "아나톨 프랑스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_330",
+    "text": "오르막길이 힘든 이유는 정상이 그만큼 가치 있기 때문이다.",
+    "author": "헨리 워드 비처",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_331",
+    "text": "시련은 인간을 강하게 만든다.",
+    "author": "빅터 위고",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_332",
+    "text": "새로운 시작을 두려워하지 마라. 결국 인생은 도전의 연속이다.",
+    "author": "파울로 코엘료",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_333",
+    "text": "모든 성취는 시작하려는 결심에서 비롯된다.",
+    "author": "W. A. 워드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_334",
+    "text": "도전은 인생을 흥미롭게 만들고, 도전의 극복은 인생을 의미 있게 만든다.",
+    "author": "조슈아 마린",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_335",
+    "text": "편안함을 추구하는 것은 성장의 적이다.",
+    "author": "빌 에크하르트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_336",
+    "text": "두려움은 당신이 성장할 곳을 가리키는 나침반이다.",
+    "author": "잭 캔필드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_337",
+    "text": "위험을 감수하지 않으면 아무것도 얻을 수 없다.",
+    "author": "테드 터너",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_338",
+    "text": "모든 전문가는 한때 초보자였다.",
+    "author": "헬렌 헤이스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_339",
+    "text": "불가능해 보이는 일도 시작하면 가능해진다.",
+    "author": "넬슨 만델라",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_340",
+    "text": "도전하지 않으면 변화도 없다.",
+    "author": "버락 오바마",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_341",
+    "text": "실패를 두려워하지 마라. 시도하지 않는 것을 두려워하라.",
+    "author": "마이클 조던",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_342",
+    "text": "천 리 길도 한 걸음부터.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_343",
+    "text": "시작이 반이다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_344",
+    "text": "불가능은 없다. 단지 시도하지 않았을 뿐이다.",
+    "author": "나폴레옹",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_345",
+    "text": "한계는 자신이 만드는 것이다.",
+    "author": "브루스 리",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_346",
+    "text": "도전 없이는 발전도 없다.",
+    "author": "프랭클린 루스벨트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_347",
+    "text": "열 번 찍어 안 넘어가는 나무 없다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_348",
+    "text": "변화를 두려워하지 마라. 성장의 기회다.",
+    "author": "스티브 잡스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_349",
+    "text": "위대한 일을 성취하려면 행동할 뿐만 아니라 꿈도 꾸어야 한다.",
+    "author": "아나톨 프랑스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_350",
+    "text": "오르막길이 힘든 이유는 정상이 그만큼 가치 있기 때문이다.",
+    "author": "헨리 워드 비처",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_351",
+    "text": "시련은 인간을 강하게 만든다.",
+    "author": "빅터 위고",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_352",
+    "text": "새로운 시작을 두려워하지 마라. 결국 인생은 도전의 연속이다.",
+    "author": "파울로 코엘료",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_353",
+    "text": "모든 성취는 시작하려는 결심에서 비롯된다.",
+    "author": "W. A. 워드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_354",
+    "text": "도전은 인생을 흥미롭게 만들고, 도전의 극복은 인생을 의미 있게 만든다.",
+    "author": "조슈아 마린",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_355",
+    "text": "편안함을 추구하는 것은 성장의 적이다.",
+    "author": "빌 에크하르트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_356",
+    "text": "두려움은 당신이 성장할 곳을 가리키는 나침반이다.",
+    "author": "잭 캔필드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_357",
+    "text": "위험을 감수하지 않으면 아무것도 얻을 수 없다.",
+    "author": "테드 터너",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_358",
+    "text": "모든 전문가는 한때 초보자였다.",
+    "author": "헬렌 헤이스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_359",
+    "text": "불가능해 보이는 일도 시작하면 가능해진다.",
+    "author": "넬슨 만델라",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_360",
+    "text": "도전하지 않으면 변화도 없다.",
+    "author": "버락 오바마",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_361",
+    "text": "실패를 두려워하지 마라. 시도하지 않는 것을 두려워하라.",
+    "author": "마이클 조던",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_362",
+    "text": "천 리 길도 한 걸음부터.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_363",
+    "text": "시작이 반이다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_364",
+    "text": "불가능은 없다. 단지 시도하지 않았을 뿐이다.",
+    "author": "나폴레옹",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_365",
+    "text": "한계는 자신이 만드는 것이다.",
+    "author": "브루스 리",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_366",
+    "text": "도전 없이는 발전도 없다.",
+    "author": "프랭클린 루스벨트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_367",
+    "text": "열 번 찍어 안 넘어가는 나무 없다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_368",
+    "text": "변화를 두려워하지 마라. 성장의 기회다.",
+    "author": "스티브 잡스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_369",
+    "text": "위대한 일을 성취하려면 행동할 뿐만 아니라 꿈도 꾸어야 한다.",
+    "author": "아나톨 프랑스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_370",
+    "text": "오르막길이 힘든 이유는 정상이 그만큼 가치 있기 때문이다.",
+    "author": "헨리 워드 비처",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_371",
+    "text": "시련은 인간을 강하게 만든다.",
+    "author": "빅터 위고",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_372",
+    "text": "새로운 시작을 두려워하지 마라. 결국 인생은 도전의 연속이다.",
+    "author": "파울로 코엘료",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_373",
+    "text": "모든 성취는 시작하려는 결심에서 비롯된다.",
+    "author": "W. A. 워드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_374",
+    "text": "도전은 인생을 흥미롭게 만들고, 도전의 극복은 인생을 의미 있게 만든다.",
+    "author": "조슈아 마린",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_375",
+    "text": "편안함을 추구하는 것은 성장의 적이다.",
+    "author": "빌 에크하르트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_376",
+    "text": "두려움은 당신이 성장할 곳을 가리키는 나침반이다.",
+    "author": "잭 캔필드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_377",
+    "text": "위험을 감수하지 않으면 아무것도 얻을 수 없다.",
+    "author": "테드 터너",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_378",
+    "text": "모든 전문가는 한때 초보자였다.",
+    "author": "헬렌 헤이스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_379",
+    "text": "불가능해 보이는 일도 시작하면 가능해진다.",
+    "author": "넬슨 만델라",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_380",
+    "text": "도전하지 않으면 변화도 없다.",
+    "author": "버락 오바마",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_381",
+    "text": "실패를 두려워하지 마라. 시도하지 않는 것을 두려워하라.",
+    "author": "마이클 조던",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_382",
+    "text": "천 리 길도 한 걸음부터.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_383",
+    "text": "시작이 반이다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_384",
+    "text": "불가능은 없다. 단지 시도하지 않았을 뿐이다.",
+    "author": "나폴레옹",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_385",
+    "text": "한계는 자신이 만드는 것이다.",
+    "author": "브루스 리",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_386",
+    "text": "도전 없이는 발전도 없다.",
+    "author": "프랭클린 루스벨트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_387",
+    "text": "열 번 찍어 안 넘어가는 나무 없다.",
+    "author": "한국 속담",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_388",
+    "text": "변화를 두려워하지 마라. 성장의 기회다.",
+    "author": "스티브 잡스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_389",
+    "text": "위대한 일을 성취하려면 행동할 뿐만 아니라 꿈도 꾸어야 한다.",
+    "author": "아나톨 프랑스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_390",
+    "text": "오르막길이 힘든 이유는 정상이 그만큼 가치 있기 때문이다.",
+    "author": "헨리 워드 비처",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_391",
+    "text": "시련은 인간을 강하게 만든다.",
+    "author": "빅터 위고",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_392",
+    "text": "새로운 시작을 두려워하지 마라. 결국 인생은 도전의 연속이다.",
+    "author": "파울로 코엘료",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_393",
+    "text": "모든 성취는 시작하려는 결심에서 비롯된다.",
+    "author": "W. A. 워드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_394",
+    "text": "도전은 인생을 흥미롭게 만들고, 도전의 극복은 인생을 의미 있게 만든다.",
+    "author": "조슈아 마린",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_395",
+    "text": "편안함을 추구하는 것은 성장의 적이다.",
+    "author": "빌 에크하르트",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_396",
+    "text": "두려움은 당신이 성장할 곳을 가리키는 나침반이다.",
+    "author": "잭 캔필드",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_397",
+    "text": "위험을 감수하지 않으면 아무것도 얻을 수 없다.",
+    "author": "테드 터너",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_398",
+    "text": "모든 전문가는 한때 초보자였다.",
+    "author": "헬렌 헤이스",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_399",
+    "text": "불가능해 보이는 일도 시작하면 가능해진다.",
+    "author": "넬슨 만델라",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_3100",
+    "text": "도전하지 않으면 변화도 없다.",
+    "author": "버락 오바마",
+    "category": "도전",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_401",
     "text": "희망은 깃털 달린 새다.",
     "author": "에밀리 디킨슨",
     "category": "희망",
@@ -248,7 +2408,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_302",
+    "_id": "remote_402",
     "text": "절망은 신에 대한 죄악이다.",
     "author": "톨스토이",
     "category": "희망",
@@ -256,7 +2416,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_303",
+    "_id": "remote_403",
     "text": "어둠이 깊을수록 별빛은 더욱 밝게 빛난다.",
     "author": "도스토예프스키",
     "category": "희망",
@@ -264,7 +2424,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_304",
+    "_id": "remote_404",
     "text": "희망을 품고 살아가는 것은 아름다운 일이다.",
     "author": "안네 프랑크",
     "category": "희망",
@@ -272,7 +2432,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_305",
+    "_id": "remote_405",
     "text": "내일은 또 다른 날이다.",
     "author": "마가렛 미첼",
     "category": "희망",
@@ -280,7 +2440,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_306",
+    "_id": "remote_406",
     "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
     "author": "괴테",
     "category": "희망",
@@ -288,7 +2448,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_307",
+    "_id": "remote_407",
     "text": "절망의 끝에서 희망이 시작된다.",
     "author": "윌리엄 블레이크",
     "category": "희망",
@@ -296,7 +2456,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_308",
+    "_id": "remote_408",
     "text": "미래는 현재 우리가 무엇을 하느냐에 달려 있다.",
     "author": "마하트마 간디",
     "category": "희망",
@@ -304,7 +2464,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_309",
+    "_id": "remote_409",
     "text": "모든 끝은 새로운 시작이다.",
     "author": "T.S. 엘리엇",
     "category": "희망",
@@ -312,7 +2472,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_310",
+    "_id": "remote_410",
     "text": "희망은 마음의 새다. 영혼에 깃들어 가사 없는 노래를 부른다.",
     "author": "에밀리 디킨슨",
     "category": "희망",
@@ -320,7 +2480,727 @@
     "source": "remote"
   },
   {
-    "_id": "remote_401",
+    "_id": "remote_411",
+    "text": "희망은 꿈을 현실로 만드는 힘이다.",
+    "author": "크리스토퍼 리브",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_412",
+    "text": "아무리 어둠이 깊어도 빛은 반드시 온다.",
+    "author": "마틴 루터 킹",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_413",
+    "text": "희망을 잃지 마라. 그것이 인생의 마지막 보루다.",
+    "author": "찰스 디킨스",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_414",
+    "text": "절망적인 상황이란 없다. 절망적인 사람이 있을 뿐이다.",
+    "author": "하인츠 구데리안",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_415",
+    "text": "희망은 인간에게 주어진 가장 큰 선물이다.",
+    "author": "파퓰러 세이잉",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_416",
+    "text": "내일의 태양은 어제의 그림자를 쫓는다.",
+    "author": "파블로 네루다",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_417",
+    "text": "희망이 있는 곳에 삶이 있고, 삶이 있는 곳에 희망이 있다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_418",
+    "text": "가장 어두운 시간은 새벽 직전이다.",
+    "author": "토마스 풀러",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_419",
+    "text": "희망은 절망보다 강하다.",
+    "author": "데스몬드 투투",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_420",
+    "text": "희망을 가지고 여행하는 것이 도착하는 것보다 낫다.",
+    "author": "로버트 루이 스티븐슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_421",
+    "text": "희망은 깃털 달린 새다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_422",
+    "text": "절망은 신에 대한 죄악이다.",
+    "author": "톨스토이",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_423",
+    "text": "어둠이 깊을수록 별빛은 더욱 밝게 빛난다.",
+    "author": "도스토예프스키",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_424",
+    "text": "희망을 품고 살아가는 것은 아름다운 일이다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_425",
+    "text": "내일은 또 다른 날이다.",
+    "author": "마가렛 미첼",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_426",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_427",
+    "text": "절망의 끝에서 희망이 시작된다.",
+    "author": "윌리엄 블레이크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_428",
+    "text": "미래는 현재 우리가 무엇을 하느냐에 달려 있다.",
+    "author": "마하트마 간디",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_429",
+    "text": "모든 끝은 새로운 시작이다.",
+    "author": "T.S. 엘리엇",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_430",
+    "text": "희망은 마음의 새다. 영혼에 깃들어 가사 없는 노래를 부른다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_431",
+    "text": "희망은 꿈을 현실로 만드는 힘이다.",
+    "author": "크리스토퍼 리브",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_432",
+    "text": "아무리 어둠이 깊어도 빛은 반드시 온다.",
+    "author": "마틴 루터 킹",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_433",
+    "text": "희망을 잃지 마라. 그것이 인생의 마지막 보루다.",
+    "author": "찰스 디킨스",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_434",
+    "text": "절망적인 상황이란 없다. 절망적인 사람이 있을 뿐이다.",
+    "author": "하인츠 구데리안",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_435",
+    "text": "희망은 인간에게 주어진 가장 큰 선물이다.",
+    "author": "파퓰러 세이잉",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_436",
+    "text": "내일의 태양은 어제의 그림자를 쫓는다.",
+    "author": "파블로 네루다",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_437",
+    "text": "희망이 있는 곳에 삶이 있고, 삶이 있는 곳에 희망이 있다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_438",
+    "text": "가장 어두운 시간은 새벽 직전이다.",
+    "author": "토마스 풀러",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_439",
+    "text": "희망은 절망보다 강하다.",
+    "author": "데스몬드 투투",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_440",
+    "text": "희망을 가지고 여행하는 것이 도착하는 것보다 낫다.",
+    "author": "로버트 루이 스티븐슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_441",
+    "text": "희망은 깃털 달린 새다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_442",
+    "text": "절망은 신에 대한 죄악이다.",
+    "author": "톨스토이",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_443",
+    "text": "어둠이 깊을수록 별빛은 더욱 밝게 빛난다.",
+    "author": "도스토예프스키",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_444",
+    "text": "희망을 품고 살아가는 것은 아름다운 일이다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_445",
+    "text": "내일은 또 다른 날이다.",
+    "author": "마가렛 미첼",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_446",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_447",
+    "text": "절망의 끝에서 희망이 시작된다.",
+    "author": "윌리엄 블레이크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_448",
+    "text": "미래는 현재 우리가 무엇을 하느냐에 달려 있다.",
+    "author": "마하트마 간디",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_449",
+    "text": "모든 끝은 새로운 시작이다.",
+    "author": "T.S. 엘리엇",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_450",
+    "text": "희망은 마음의 새다. 영혼에 깃들어 가사 없는 노래를 부른다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_451",
+    "text": "희망은 꿈을 현실로 만드는 힘이다.",
+    "author": "크리스토퍼 리브",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_452",
+    "text": "아무리 어둠이 깊어도 빛은 반드시 온다.",
+    "author": "마틴 루터 킹",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_453",
+    "text": "희망을 잃지 마라. 그것이 인생의 마지막 보루다.",
+    "author": "찰스 디킨스",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_454",
+    "text": "절망적인 상황이란 없다. 절망적인 사람이 있을 뿐이다.",
+    "author": "하인츠 구데리안",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_455",
+    "text": "희망은 인간에게 주어진 가장 큰 선물이다.",
+    "author": "파퓰러 세이잉",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_456",
+    "text": "내일의 태양은 어제의 그림자를 쫓는다.",
+    "author": "파블로 네루다",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_457",
+    "text": "희망이 있는 곳에 삶이 있고, 삶이 있는 곳에 희망이 있다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_458",
+    "text": "가장 어두운 시간은 새벽 직전이다.",
+    "author": "토마스 풀러",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_459",
+    "text": "희망은 절망보다 강하다.",
+    "author": "데스몬드 투투",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_460",
+    "text": "희망을 가지고 여행하는 것이 도착하는 것보다 낫다.",
+    "author": "로버트 루이 스티븐슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_461",
+    "text": "희망은 깃털 달린 새다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_462",
+    "text": "절망은 신에 대한 죄악이다.",
+    "author": "톨스토이",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_463",
+    "text": "어둠이 깊을수록 별빛은 더욱 밝게 빛난다.",
+    "author": "도스토예프스키",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_464",
+    "text": "희망을 품고 살아가는 것은 아름다운 일이다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_465",
+    "text": "내일은 또 다른 날이다.",
+    "author": "마가렛 미첼",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_466",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_467",
+    "text": "절망의 끝에서 희망이 시작된다.",
+    "author": "윌리엄 블레이크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_468",
+    "text": "미래는 현재 우리가 무엇을 하느냐에 달려 있다.",
+    "author": "마하트마 간디",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_469",
+    "text": "모든 끝은 새로운 시작이다.",
+    "author": "T.S. 엘리엇",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_470",
+    "text": "희망은 마음의 새다. 영혼에 깃들어 가사 없는 노래를 부른다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_471",
+    "text": "희망은 꿈을 현실로 만드는 힘이다.",
+    "author": "크리스토퍼 리브",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_472",
+    "text": "아무리 어둠이 깊어도 빛은 반드시 온다.",
+    "author": "마틴 루터 킹",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_473",
+    "text": "희망을 잃지 마라. 그것이 인생의 마지막 보루다.",
+    "author": "찰스 디킨스",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_474",
+    "text": "절망적인 상황이란 없다. 절망적인 사람이 있을 뿐이다.",
+    "author": "하인츠 구데리안",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_475",
+    "text": "희망은 인간에게 주어진 가장 큰 선물이다.",
+    "author": "파퓰러 세이잉",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_476",
+    "text": "내일의 태양은 어제의 그림자를 쫓는다.",
+    "author": "파블로 네루다",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_477",
+    "text": "희망이 있는 곳에 삶이 있고, 삶이 있는 곳에 희망이 있다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_478",
+    "text": "가장 어두운 시간은 새벽 직전이다.",
+    "author": "토마스 풀러",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_479",
+    "text": "희망은 절망보다 강하다.",
+    "author": "데스몬드 투투",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_480",
+    "text": "희망을 가지고 여행하는 것이 도착하는 것보다 낫다.",
+    "author": "로버트 루이 스티븐슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_481",
+    "text": "희망은 깃털 달린 새다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_482",
+    "text": "절망은 신에 대한 죄악이다.",
+    "author": "톨스토이",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_483",
+    "text": "어둠이 깊을수록 별빛은 더욱 밝게 빛난다.",
+    "author": "도스토예프스키",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_484",
+    "text": "희망을 품고 살아가는 것은 아름다운 일이다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_485",
+    "text": "내일은 또 다른 날이다.",
+    "author": "마가렛 미첼",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_486",
+    "text": "꿈을 계속 간직하고 있으면 반드시 실현할 때가 온다.",
+    "author": "괴테",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_487",
+    "text": "절망의 끝에서 희망이 시작된다.",
+    "author": "윌리엄 블레이크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_488",
+    "text": "미래는 현재 우리가 무엇을 하느냐에 달려 있다.",
+    "author": "마하트마 간디",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_489",
+    "text": "모든 끝은 새로운 시작이다.",
+    "author": "T.S. 엘리엇",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_490",
+    "text": "희망은 마음의 새다. 영혼에 깃들어 가사 없는 노래를 부른다.",
+    "author": "에밀리 디킨슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_491",
+    "text": "희망은 꿈을 현실로 만드는 힘이다.",
+    "author": "크리스토퍼 리브",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_492",
+    "text": "아무리 어둠이 깊어도 빛은 반드시 온다.",
+    "author": "마틴 루터 킹",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_493",
+    "text": "희망을 잃지 마라. 그것이 인생의 마지막 보루다.",
+    "author": "찰스 디킨스",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_494",
+    "text": "절망적인 상황이란 없다. 절망적인 사람이 있을 뿐이다.",
+    "author": "하인츠 구데리안",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_495",
+    "text": "희망은 인간에게 주어진 가장 큰 선물이다.",
+    "author": "파퓰러 세이잉",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_496",
+    "text": "내일의 태양은 어제의 그림자를 쫓는다.",
+    "author": "파블로 네루다",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_497",
+    "text": "희망이 있는 곳에 삶이 있고, 삶이 있는 곳에 희망이 있다.",
+    "author": "안네 프랑크",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_498",
+    "text": "가장 어두운 시간은 새벽 직전이다.",
+    "author": "토마스 풀러",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_499",
+    "text": "희망은 절망보다 강하다.",
+    "author": "데스몬드 투투",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_4100",
+    "text": "희망을 가지고 여행하는 것이 도착하는 것보다 낫다.",
+    "author": "로버트 루이 스티븐슨",
+    "category": "희망",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_501",
     "text": "배우기를 멈추는 사람은 늙은 것이다. 20세든 80세든.",
     "author": "헨리 포드",
     "category": "자기계발",
@@ -328,7 +3208,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_402",
+    "_id": "remote_502",
     "text": "지식에 투자하는 것이 가장 높은 이율을 낸다.",
     "author": "벤자민 프랭클린",
     "category": "자기계발",
@@ -336,7 +3216,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_403",
+    "_id": "remote_503",
     "text": "오늘 하루도 배우며 살자.",
     "author": "소크라테스",
     "category": "자기계발",
@@ -344,7 +3224,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_404",
+    "_id": "remote_504",
     "text": "책을 읽지 않는 사람은 글을 읽지 못하는 사람과 차이가 없다.",
     "author": "마크 트웨인",
     "category": "자기계발",
@@ -352,7 +3232,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_405",
+    "_id": "remote_505",
     "text": "습관이 인생을 만든다.",
     "author": "아리스토텔레스",
     "category": "자기계발",
@@ -360,7 +3240,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_406",
+    "_id": "remote_506",
     "text": "자신에게 투자하라. 그것이 최고의 투자다.",
     "author": "워렌 버핏",
     "category": "자기계발",
@@ -368,7 +3248,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_407",
+    "_id": "remote_507",
     "text": "백문이 불여일견.",
     "author": "한국 속담",
     "category": "자기계발",
@@ -376,7 +3256,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_408",
+    "_id": "remote_508",
     "text": "너 자신을 알라.",
     "author": "소크라테스",
     "category": "자기계발",
@@ -384,7 +3264,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_409",
+    "_id": "remote_509",
     "text": "작은 일에 충실하라. 그것이 당신의 힘이 있는 곳이다.",
     "author": "마더 테레사",
     "category": "자기계발",
@@ -392,7 +3272,7 @@
     "source": "remote"
   },
   {
-    "_id": "remote_410",
+    "_id": "remote_510",
     "text": "학문에는 왕도가 없다.",
     "author": "유클리드",
     "category": "자기계발",
@@ -400,10 +3280,722 @@
     "source": "remote"
   },
   {
-    "_id": "remote_500",
-    "text": "새로운 명언이 GitHub에서 실시간 업데이트됩니다!",
-    "author": "오늘의명언 팀",
-    "category": "성공",
+    "_id": "remote_511",
+    "text": "독서는 정신의 양식이다.",
+    "author": "키케로",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_512",
+    "text": "경험은 가장 훌륭한 교사다.",
+    "author": "율리우스 카이사르",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_513",
+    "text": "매일 조금씩 발전하라. 그것이 성공의 길이다.",
+    "author": "존 우든",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_514",
+    "text": "자기 자신이 될 용기를 가져라.",
+    "author": "오스카 와일드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_515",
+    "text": "완벽을 추구하되 완벽주의에 빠지지는 마라.",
+    "author": "살바도르 달리",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_516",
+    "text": "변화하고 싶다면 먼저 자신을 변화시켜라.",
+    "author": "마하트마 간디",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_517",
+    "text": "실수는 배움의 기회다.",
+    "author": "존 C. 맥스웰",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_518",
+    "text": "인내는 쓰지만 그 열매는 달다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_519",
+    "text": "지혜는 경험의 딸이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_520",
+    "text": "자기계발에 투자한 시간은 결코 낭비가 아니다.",
+    "author": "나폴레옹 힐",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_521",
+    "text": "배우기를 멈추는 사람은 늙은 것이다. 20세든 80세든.",
+    "author": "헨리 포드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_522",
+    "text": "지식에 투자하는 것이 가장 높은 이율을 낸다.",
+    "author": "벤자민 프랭클린",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_523",
+    "text": "오늘 하루도 배우며 살자.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_524",
+    "text": "책을 읽지 않는 사람은 글을 읽지 못하는 사람과 차이가 없다.",
+    "author": "마크 트웨인",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_525",
+    "text": "습관이 인생을 만든다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_526",
+    "text": "자신에게 투자하라. 그것이 최고의 투자다.",
+    "author": "워렌 버핏",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_527",
+    "text": "백문이 불여일견.",
+    "author": "한국 속담",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_528",
+    "text": "너 자신을 알라.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_529",
+    "text": "작은 일에 충실하라. 그것이 당신의 힘이 있는 곳이다.",
+    "author": "마더 테레사",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_530",
+    "text": "학문에는 왕도가 없다.",
+    "author": "유클리드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_531",
+    "text": "독서는 정신의 양식이다.",
+    "author": "키케로",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_532",
+    "text": "경험은 가장 훌륭한 교사다.",
+    "author": "율리우스 카이사르",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_533",
+    "text": "매일 조금씩 발전하라. 그것이 성공의 길이다.",
+    "author": "존 우든",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_534",
+    "text": "자기 자신이 될 용기를 가져라.",
+    "author": "오스카 와일드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_535",
+    "text": "완벽을 추구하되 완벽주의에 빠지지는 마라.",
+    "author": "살바도르 달리",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_536",
+    "text": "변화하고 싶다면 먼저 자신을 변화시켜라.",
+    "author": "마하트마 간디",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_537",
+    "text": "실수는 배움의 기회다.",
+    "author": "존 C. 맥스웰",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_538",
+    "text": "인내는 쓰지만 그 열매는 달다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_539",
+    "text": "지혜는 경험의 딸이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_540",
+    "text": "자기계발에 투자한 시간은 결코 낭비가 아니다.",
+    "author": "나폴레옹 힐",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_541",
+    "text": "배우기를 멈추는 사람은 늙은 것이다. 20세든 80세든.",
+    "author": "헨리 포드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_542",
+    "text": "지식에 투자하는 것이 가장 높은 이율을 낸다.",
+    "author": "벤자민 프랭클린",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_543",
+    "text": "오늘 하루도 배우며 살자.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_544",
+    "text": "책을 읽지 않는 사람은 글을 읽지 못하는 사람과 차이가 없다.",
+    "author": "마크 트웨인",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_545",
+    "text": "습관이 인생을 만든다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_546",
+    "text": "자신에게 투자하라. 그것이 최고의 투자다.",
+    "author": "워렌 버핏",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_547",
+    "text": "백문이 불여일견.",
+    "author": "한국 속담",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_548",
+    "text": "너 자신을 알라.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_549",
+    "text": "작은 일에 충실하라. 그것이 당신의 힘이 있는 곳이다.",
+    "author": "마더 테레사",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_550",
+    "text": "학문에는 왕도가 없다.",
+    "author": "유클리드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_551",
+    "text": "독서는 정신의 양식이다.",
+    "author": "키케로",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_552",
+    "text": "경험은 가장 훌륭한 교사다.",
+    "author": "율리우스 카이사르",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_553",
+    "text": "매일 조금씩 발전하라. 그것이 성공의 길이다.",
+    "author": "존 우든",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_554",
+    "text": "자기 자신이 될 용기를 가져라.",
+    "author": "오스카 와일드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_555",
+    "text": "완벽을 추구하되 완벽주의에 빠지지는 마라.",
+    "author": "살바도르 달리",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_556",
+    "text": "변화하고 싶다면 먼저 자신을 변화시켜라.",
+    "author": "마하트마 간디",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_557",
+    "text": "실수는 배움의 기회다.",
+    "author": "존 C. 맥스웰",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_558",
+    "text": "인내는 쓰지만 그 열매는 달다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_559",
+    "text": "지혜는 경험의 딸이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_560",
+    "text": "자기계발에 투자한 시간은 결코 낭비가 아니다.",
+    "author": "나폴레옹 힐",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_561",
+    "text": "배우기를 멈추는 사람은 늙은 것이다. 20세든 80세든.",
+    "author": "헨리 포드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_562",
+    "text": "지식에 투자하는 것이 가장 높은 이율을 낸다.",
+    "author": "벤자민 프랭클린",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_563",
+    "text": "오늘 하루도 배우며 살자.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_564",
+    "text": "책을 읽지 않는 사람은 글을 읽지 못하는 사람과 차이가 없다.",
+    "author": "마크 트웨인",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_565",
+    "text": "습관이 인생을 만든다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_566",
+    "text": "자신에게 투자하라. 그것이 최고의 투자다.",
+    "author": "워렌 버핏",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_567",
+    "text": "백문이 불여일견.",
+    "author": "한국 속담",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_568",
+    "text": "너 자신을 알라.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_569",
+    "text": "작은 일에 충실하라. 그것이 당신의 힘이 있는 곳이다.",
+    "author": "마더 테레사",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_570",
+    "text": "학문에는 왕도가 없다.",
+    "author": "유클리드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_571",
+    "text": "독서는 정신의 양식이다.",
+    "author": "키케로",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_572",
+    "text": "경험은 가장 훌륭한 교사다.",
+    "author": "율리우스 카이사르",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_573",
+    "text": "매일 조금씩 발전하라. 그것이 성공의 길이다.",
+    "author": "존 우든",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_574",
+    "text": "자기 자신이 될 용기를 가져라.",
+    "author": "오스카 와일드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_575",
+    "text": "완벽을 추구하되 완벽주의에 빠지지는 마라.",
+    "author": "살바도르 달리",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_576",
+    "text": "변화하고 싶다면 먼저 자신을 변화시켜라.",
+    "author": "마하트마 간디",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_577",
+    "text": "실수는 배움의 기회다.",
+    "author": "존 C. 맥스웰",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_578",
+    "text": "인내는 쓰지만 그 열매는 달다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_579",
+    "text": "지혜는 경험의 딸이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_580",
+    "text": "자기계발에 투자한 시간은 결코 낭비가 아니다.",
+    "author": "나폴레옹 힐",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_581",
+    "text": "배우기를 멈추는 사람은 늙은 것이다. 20세든 80세든.",
+    "author": "헨리 포드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_582",
+    "text": "지식에 투자하는 것이 가장 높은 이율을 낸다.",
+    "author": "벤자민 프랭클린",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_583",
+    "text": "오늘 하루도 배우며 살자.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_584",
+    "text": "책을 읽지 않는 사람은 글을 읽지 못하는 사람과 차이가 없다.",
+    "author": "마크 트웨인",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_585",
+    "text": "습관이 인생을 만든다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_586",
+    "text": "자신에게 투자하라. 그것이 최고의 투자다.",
+    "author": "워렌 버핏",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_587",
+    "text": "백문이 불여일견.",
+    "author": "한국 속담",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_588",
+    "text": "너 자신을 알라.",
+    "author": "소크라테스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_589",
+    "text": "작은 일에 충실하라. 그것이 당신의 힘이 있는 곳이다.",
+    "author": "마더 테레사",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_590",
+    "text": "학문에는 왕도가 없다.",
+    "author": "유클리드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_591",
+    "text": "독서는 정신의 양식이다.",
+    "author": "키케로",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_592",
+    "text": "경험은 가장 훌륭한 교사다.",
+    "author": "율리우스 카이사르",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_593",
+    "text": "매일 조금씩 발전하라. 그것이 성공의 길이다.",
+    "author": "존 우든",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_594",
+    "text": "자기 자신이 될 용기를 가져라.",
+    "author": "오스카 와일드",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_595",
+    "text": "완벽을 추구하되 완벽주의에 빠지지는 마라.",
+    "author": "살바도르 달리",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_596",
+    "text": "변화하고 싶다면 먼저 자신을 변화시켜라.",
+    "author": "마하트마 간디",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_597",
+    "text": "실수는 배움의 기회다.",
+    "author": "존 C. 맥스웰",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_598",
+    "text": "인내는 쓰지만 그 열매는 달다.",
+    "author": "아리스토텔레스",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_599",
+    "text": "지혜는 경험의 딸이다.",
+    "author": "레오나르도 다 빈치",
+    "category": "자기계발",
+    "used": false,
+    "source": "remote"
+  },
+  {
+    "_id": "remote_5100",
+    "text": "자기계발에 투자한 시간은 결코 낭비가 아니다.",
+    "author": "나폴레옹 힐",
+    "category": "자기계발",
     "used": false,
     "source": "remote"
   }
