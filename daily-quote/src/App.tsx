@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline, Container, Paper, Typography, Box, CircularProgress, Button, Chip } from '@mui/material';
 import RefreshIcon from '@mui/icons-material/Refresh';
+import CategoryIcon from '@mui/icons-material/Category';
 
 const theme = createTheme({
   palette: {
@@ -34,8 +35,12 @@ const GITHUB_QUOTES_URL = 'https://raw.githubusercontent.com/chanho-krc/qoute/ma
 function App() {
   const [currentQuote, setCurrentQuote] = useState<Quote | null>(null);
   const [quotes, setQuotes] = useState<Quote[]>([]);
+  const [filteredQuotes, setFilteredQuotes] = useState<Quote[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<string>('전체');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  const categories = ['전체', '성공', '인생', '도전', '희망', '자기계발'];
 
   const fetchQuotesFromGitHub = async () => {
     try {
@@ -89,14 +94,31 @@ function App() {
     return quotesArray[randomIndex];
   };
 
+  const filterQuotesByCategory = (quotesArray: Quote[], category: string) => {
+    if (category === '전체') return quotesArray;
+    return quotesArray.filter(quote => quote.category === category);
+  };
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+    const filtered = filterQuotesByCategory(quotes, category);
+    setFilteredQuotes(filtered);
+    if (filtered.length > 0) {
+      const newQuote = selectRandomQuote(filtered);
+      setCurrentQuote(newQuote);
+    }
+  };
+
   const handleRefresh = async () => {
-    if (quotes.length > 0) {
-      const newQuote = selectRandomQuote(quotes);
+    const targetQuotes = filteredQuotes.length > 0 ? filteredQuotes : quotes;
+    if (targetQuotes.length > 0) {
+      const newQuote = selectRandomQuote(targetQuotes);
       setCurrentQuote(newQuote);
     } else {
       await fetchQuotesFromGitHub().then(quotesArray => {
         if (quotesArray.length > 0) {
-          const newQuote = selectRandomQuote(quotesArray);
+          const filtered = filterQuotesByCategory(quotesArray, selectedCategory);
+          const newQuote = selectRandomQuote(filtered);
           setCurrentQuote(newQuote);
         }
       });
@@ -106,18 +128,25 @@ function App() {
   useEffect(() => {
     fetchQuotesFromGitHub().then(quotesArray => {
       if (quotesArray.length > 0) {
-        const randomQuote = selectRandomQuote(quotesArray);
+        const filtered = filterQuotesByCategory(quotesArray, selectedCategory);
+        setFilteredQuotes(filtered);
+        const randomQuote = selectRandomQuote(filtered);
         setCurrentQuote(randomQuote);
       }
     });
 
     // 6시간마다 GitHub에서 새 데이터 확인
     const interval = setInterval(() => {
-      fetchQuotesFromGitHub();
+      fetchQuotesFromGitHub().then(quotesArray => {
+        if (quotesArray.length > 0) {
+          const filtered = filterQuotesByCategory(quotesArray, selectedCategory);
+          setFilteredQuotes(filtered);
+        }
+      });
     }, 6 * 60 * 60 * 1000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [selectedCategory]);
 
   const getCategoryColor = (category: string) => {
     const colors: { [key: string]: string } = {
@@ -135,6 +164,13 @@ function App() {
       return '🌐 GitHub';
     }
     return '💾 Local';
+  };
+
+  const getCategoryStats = () => {
+    if (selectedCategory === '전체') {
+      return `총 ${quotes.length}개`;
+    }
+    return `${selectedCategory} ${filteredQuotes.length}개`;
   };
 
   return (
@@ -156,9 +192,38 @@ function App() {
             <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold' }}>
               🌟 오늘의 명언
             </Typography>
-            <Typography variant="subtitle1" color="text.secondary">
-              GitHub 기반 실시간 업데이트 | {getDataSource()}
+            <Typography variant="subtitle1" color="text.secondary" sx={{ mb: 2 }}>
+              GitHub 기반 실시간 업데이트 | {getDataSource()} | {getCategoryStats()}
             </Typography>
+            
+            {/* 카테고리 선택 버튼 */}
+            <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: 1, mb: 2 }}>
+              {categories.map((category) => (
+                <Button
+                  key={category}
+                  variant={selectedCategory === category ? 'contained' : 'outlined'}
+                  size="small"
+                  startIcon={<CategoryIcon />}
+                  onClick={() => handleCategoryChange(category)}
+                  sx={{
+                    borderRadius: 20,
+                    textTransform: 'none',
+                    minWidth: 'auto',
+                    px: 2,
+                    py: 0.5,
+                    fontSize: '0.85rem',
+                    backgroundColor: selectedCategory === category ? getCategoryColor(category) : 'transparent',
+                    borderColor: getCategoryColor(category),
+                    color: selectedCategory === category ? 'white' : getCategoryColor(category),
+                    '&:hover': {
+                      backgroundColor: selectedCategory === category ? getCategoryColor(category) : `${getCategoryColor(category)}20`,
+                    }
+                  }}
+                >
+                  {category}
+                </Button>
+              ))}
+            </Box>
           </Box>
 
           {/* 명언 카드 */}

@@ -39,9 +39,9 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: '설정',
+          title: '알림 설정',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'settings' : 'settings-outline'} color={color} />
+            <TabBarIcon name={focused ? 'notifications' : 'notifications-outline'} color={color} />
           ),
         }}
       />

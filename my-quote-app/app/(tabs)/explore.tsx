@@ -1,141 +1,180 @@
-import React, { useState } from 'react';
-import { StyleSheet, TouchableOpacity, Alert, Switch, ScrollView, TextInput } from 'react-native';
+import { StyleSheet, View, Text, Switch, Alert, Platform } from 'react-native';
+import { useState, useEffect } from 'react';
+import * as Notifications from 'expo-notifications';
+import * as Device from 'expo-device';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { CrowdsourcingManager } from '@/data/crowdsourcedQuotes';
 
-export default function TabTwoScreen() {
-  const [quoteText, setQuoteText] = useState('');
-  const [author, setAuthor] = useState('');
-  const [category, setCategory] = useState('성공');
-  const [submitterName, setSubmitterName] = useState('');
+// 알림 설정
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: true,
+    shouldSetBadge: false,
+  }),
+});
 
-  const categories = ['성공', '인생', '도전', '희망', '자기계발'];
+export default function NotificationSettingsScreen() {
+  const [notificationsEnabled, setNotificationsEnabled] = useState(false);
+  const [expoPushToken, setExpoPushToken] = useState<string>('');
 
-  const handleSubmitQuote = () => {
-    if (!quoteText.trim() || !author.trim() || !submitterName.trim()) {
-      Alert.alert('입력 오류', '모든 필드를 입력해주세요.');
-      return;
+  // 알림 권한 요청
+  async function registerForPushNotificationsAsync() {
+    let token;
+
+    if (Platform.OS === 'android') {
+      await Notifications.setNotificationChannelAsync('default', {
+        name: 'default',
+        importance: Notifications.AndroidImportance.MAX,
+        vibrationPattern: [0, 250, 250, 250],
+        lightColor: '#FF231F7C',
+      });
     }
 
-    if (quoteText.length < 10) {
-      Alert.alert('입력 오류', '명언은 최소 10자 이상이어야 합니다.');
-      return;
+    if (Device.isDevice) {
+      const { status: existingStatus } = await Notifications.getPermissionsAsync();
+      let finalStatus = existingStatus;
+      if (existingStatus !== 'granted') {
+        const { status } = await Notifications.requestPermissionsAsync();
+        finalStatus = status;
+      }
+      if (finalStatus !== 'granted') {
+        Alert.alert('실패', '알림 권한이 필요합니다!');
+        return;
+      }
+      // token = (await Notifications.getExpoPushTokenAsync()).data;
+      console.log('알림 권한 허용됨');
+    } else {
+      Alert.alert('실제 기기에서만 알림을 사용할 수 있습니다.');
     }
 
+    return token;
+  }
+
+  // 매일 알림 스케줄링
+  async function scheduleDailyNotification() {
     try {
-      const quoteId = CrowdsourcingManager.submitQuote({
-        text: quoteText.trim(),
-        author: author.trim(),
-        category: category,
-        submittedBy: submitterName.trim()
+      await Notifications.cancelAllScheduledNotificationsAsync();
+      
+      await Notifications.scheduleNotificationAsync({
+        content: {
+          title: '🌟 오늘의 명언',
+          body: '새로운 명언이 준비되었습니다. 확인해보세요!',
+          data: { screen: 'index' },
+        },
+        trigger: {
+          hour: 9,
+          minute: 0,
+          repeats: true,
+        },
       });
 
-      Alert.alert(
-        '제출 완료! 🎉',
-        '명언이 성공적으로 제출되었습니다. 관리자 검토 후 앱에 반영됩니다.',
-        [{ text: '확인', onPress: () => {
-          setQuoteText('');
-          setAuthor('');
-          setSubmitterName('');
-        }}]
-      );
+      Alert.alert('성공', '매일 오전 9시에 명언 알림을 받을 수 있습니다!');
     } catch (error) {
-      Alert.alert('오류', '명언 제출 중 오류가 발생했습니다.');
+      Alert.alert('오류', '알림을 설정하는데 실패했습니다.');
+      console.error(error);
+    }
+  }
+
+  // 알림 취소
+  async function cancelNotifications() {
+    try {
+      await Notifications.cancelAllScheduledNotificationsAsync();
+      Alert.alert('완료', '알림이 취소되었습니다.');
+    } catch (error) {
+      Alert.alert('오류', '알림 취소에 실패했습니다.');
+      console.error(error);
+    }
+  }
+
+  // 알림 토글
+  const handleNotificationToggle = async (value: boolean) => {
+    setNotificationsEnabled(value);
+    
+    if (value) {
+      const token = await registerForPushNotificationsAsync();
+      if (token) {
+        setExpoPushToken(token);
+      }
+      await scheduleDailyNotification();
+    } else {
+      await cancelNotifications();
     }
   };
 
-  const stats = CrowdsourcingManager.getStats();
+  // 컴포넌트 마운트 시 알림 상태 확인
+  useEffect(() => {
+    registerForPushNotificationsAsync().then(token => {
+      if (token) {
+        setExpoPushToken(token);
+      }
+    });
+
+    // 현재 스케줄된 알림 확인
+    Notifications.getAllScheduledNotificationsAsync().then(notifications => {
+      setNotificationsEnabled(notifications.length > 0);
+    });
+  }, []);
 
   return (
-    <ScrollView style={styles.container}>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">🤝 명언 제출하기</ThemedText>
-        <ThemedText type="subtitle">
-          좋은 명언을 알고 계신가요? 다른 사용자들과 공유해보세요!
+    <ThemedView style={styles.container}>
+      <ThemedView style={styles.header}>
+        <ThemedText type="title" style={styles.title}>
+          🔔 알림 설정
+        </ThemedText>
+        <ThemedText style={styles.subtitle}>
+          매일 영감을 주는 명언을 받아보세요
         </ThemedText>
       </ThemedView>
 
-      <ThemedView style={styles.formContainer}>
-        <ThemedText style={styles.label}>📝 명언 내용 *</ThemedText>
-        <TextInput
-          style={styles.textInput}
-          placeholder="명언을 입력해주세요..."
-          value={quoteText}
-          onChangeText={setQuoteText}
-          multiline
-          numberOfLines={3}
-          maxLength={500}
-        />
-        <ThemedText style={styles.charCount}>
-          {quoteText.length}/500자
+      <ThemedView style={styles.settingItem}>
+        <View style={styles.settingRow}>
+          <View style={styles.settingText}>
+            <ThemedText type="defaultSemiBold" style={styles.settingTitle}>
+              매일 명언 알림
+            </ThemedText>
+            <ThemedText style={styles.settingDescription}>
+              매일 오전 9시에 새로운 명언을 받아보세요
+            </ThemedText>
+          </View>
+          <Switch
+            value={notificationsEnabled}
+            onValueChange={handleNotificationToggle}
+            trackColor={{ false: '#767577', true: '#81b0ff' }}
+            thumbColor={notificationsEnabled ? '#f5dd4b' : '#f4f3f4'}
+          />
+        </View>
+      </ThemedView>
+
+      <ThemedView style={styles.infoSection}>
+        <ThemedText type="defaultSemiBold" style={styles.infoTitle}>
+          📱 알림 정보
         </ThemedText>
-
-        <ThemedText style={styles.label}>👤 작가/인물 *</ThemedText>
-        <TextInput
-          style={styles.textInput}
-          placeholder="명언의 작가나 인물을 입력해주세요"
-          value={author}
-          onChangeText={setAuthor}
-          maxLength={100}
-        />
-
-        <ThemedText style={styles.label}>📂 카테고리 *</ThemedText>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categoryContainer}>
-          {categories.map((cat) => (
-            <TouchableOpacity
-              key={cat}
-              style={[
-                styles.categoryButton,
-                category === cat && styles.selectedCategory
-              ]}
-              onPress={() => setCategory(cat)}
-            >
-              <ThemedText style={[
-                styles.categoryText,
-                category === cat && styles.selectedCategoryText
-              ]}>
-                {cat}
-              </ThemedText>
-            </TouchableOpacity>
-          ))}
-        </ScrollView>
-
-        <ThemedText style={styles.label}>✍️ 제출자 이름 *</ThemedText>
-        <TextInput
-          style={styles.textInput}
-          placeholder="닉네임을 입력해주세요"
-          value={submitterName}
-          onChangeText={setSubmitterName}
-          maxLength={50}
-        />
-
-        <TouchableOpacity style={styles.submitButton} onPress={handleSubmitQuote}>
-          <ThemedText style={styles.submitButtonText}>🚀 명언 제출하기</ThemedText>
-        </TouchableOpacity>
+        <ThemedText style={styles.infoText}>
+          • 매일 오전 9시에 알림이 전송됩니다
+        </ThemedText>
+        <ThemedText style={styles.infoText}>
+          • 500개의 다양한 명언 중에서 랜덤으로 선택됩니다
+        </ThemedText>
+        <ThemedText style={styles.infoText}>
+          • 카테고리: 성공, 인생, 도전, 희망, 자기계발
+        </ThemedText>
+        <ThemedText style={styles.infoText}>
+          • 언제든지 알림을 끄고 켤 수 있습니다
+        </ThemedText>
       </ThemedView>
 
-      <ThemedView style={styles.statsContainer}>
-        <ThemedText type="subtitle">📊 커뮤니티 통계</ThemedText>
-        <ThemedView style={styles.statRow}>
-          <ThemedText>⏳ 검토 대기중: {stats.pending}개</ThemedText>
-          <ThemedText>✅ 승인된 명언: {stats.approved}개</ThemedText>
-        </ThemedView>
-        <ThemedView style={styles.statRow}>
-          <ThemedText>👍 총 투표수: {stats.totalVotes}개</ThemedText>
-          <ThemedText>⚠️ 신고 접수: {stats.totalReports}개</ThemedText>
-        </ThemedView>
+      <ThemedView style={styles.statusSection}>
+        <ThemedText style={styles.statusText}>
+          알림 상태: {notificationsEnabled ? '✅ 활성화' : '❌ 비활성화'}
+        </ThemedText>
+        {Platform.OS === 'ios' && (
+          <ThemedText style={styles.iosNote}>
+            📝 iOS에서는 설정 > 알림에서 추가로 알림을 허용해야 할 수 있습니다.
+          </ThemedText>
+        )}
       </ThemedView>
-
-      <ThemedView style={styles.guidelinesContainer}>
-        <ThemedText type="subtitle">📋 제출 가이드라인</ThemedText>
-        <ThemedText style={styles.guideline}>• 실제 인물의 검증된 명언만 제출해주세요</ThemedText>
-        <ThemedText style={styles.guideline}>• 욕설이나 부적절한 내용은 금지됩니다</ThemedText>
-        <ThemedText style={styles.guideline}>• 저작권을 침해하지 않는 내용만 제출해주세요</ThemedText>
-        <ThemedText style={styles.guideline}>• 중복된 명언은 자동으로 필터링됩니다</ThemedText>
-        <ThemedText style={styles.guideline}>• 관리자 검토 후 2-3일 내에 반영됩니다</ThemedText>
-      </ThemedView>
-    </ScrollView>
+    </ThemedView>
   );
 }
 
@@ -144,105 +183,77 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
   },
-  titleContainer: {
+  header: {
     alignItems: 'center',
     marginBottom: 30,
-    padding: 20,
-    borderRadius: 15,
-    backgroundColor: '#f8f9fa',
+    paddingTop: 20,
   },
-  formContainer: {
-    marginBottom: 30,
-    padding: 20,
-    borderRadius: 15,
-    backgroundColor: '#ffffff',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  label: {
-    fontSize: 16,
-    fontWeight: '600',
-    marginBottom: 8,
-    marginTop: 15,
-  },
-  textInput: {
-    borderWidth: 1,
-    borderColor: '#ddd',
-    borderRadius: 10,
-    padding: 12,
-    fontSize: 16,
-    backgroundColor: '#f9f9f9',
-    textAlignVertical: 'top',
-  },
-  charCount: {
-    textAlign: 'right',
-    fontSize: 12,
-    color: '#666',
-    marginTop: 4,
-  },
-  categoryContainer: {
-    marginVertical: 10,
-  },
-  categoryButton: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
-    marginRight: 8,
-    borderRadius: 20,
-    backgroundColor: '#e9ecef',
-    borderWidth: 1,
-    borderColor: '#dee2e6',
-  },
-  selectedCategory: {
-    backgroundColor: '#007AFF',
-    borderColor: '#007AFF',
-  },
-  categoryText: {
-    fontSize: 14,
-    fontWeight: '500',
-  },
-  selectedCategoryText: {
-    color: '#ffffff',
-  },
-  submitButton: {
-    backgroundColor: '#28a745',
-    paddingVertical: 15,
-    borderRadius: 10,
-    alignItems: 'center',
-    marginTop: 20,
-    shadowColor: '#28a745',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.3,
-    shadowRadius: 4,
-    elevation: 5,
-  },
-  submitButtonText: {
-    color: '#ffffff',
-    fontSize: 18,
+  title: {
+    fontSize: 28,
     fontWeight: 'bold',
+    marginBottom: 8,
+    textAlign: 'center',
   },
-  statsContainer: {
-    marginBottom: 20,
+  subtitle: {
+    fontSize: 16,
+    opacity: 0.7,
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+  settingItem: {
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: 12,
     padding: 20,
-    borderRadius: 15,
-    backgroundColor: '#e3f2fd',
+    marginBottom: 20,
   },
-  statRow: {
+  settingRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginVertical: 5,
+    alignItems: 'center',
   },
-  guidelinesContainer: {
-    padding: 20,
-    borderRadius: 15,
-    backgroundColor: '#fff3cd',
-    marginBottom: 30,
+  settingText: {
+    flex: 1,
+    marginRight: 15,
   },
-  guideline: {
+  settingTitle: {
+    fontSize: 18,
+    marginBottom: 4,
+  },
+  settingDescription: {
     fontSize: 14,
-    marginVertical: 3,
+    opacity: 0.7,
     lineHeight: 20,
+  },
+  infoSection: {
+    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+    borderRadius: 12,
+    padding: 20,
+    marginBottom: 20,
+  },
+  infoTitle: {
+    fontSize: 16,
+    marginBottom: 12,
+  },
+  infoText: {
+    fontSize: 14,
+    opacity: 0.8,
+    marginBottom: 6,
+    lineHeight: 20,
+  },
+  statusSection: {
+    alignItems: 'center',
+    paddingTop: 20,
+  },
+  statusText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  iosNote: {
+    fontSize: 12,
+    opacity: 0.6,
+    textAlign: 'center',
+    fontStyle: 'italic',
+    paddingHorizontal: 20,
   },
 });

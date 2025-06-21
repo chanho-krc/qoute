@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, Alert, ScrollView } from 'react-native';
+import * as Notifications from 'expo-notifications';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { loadSmartQuotes, getRemoteUpdateStatus, Quote } from '@/data/quotesDatabase';
@@ -14,6 +15,22 @@ export default function HomeScreen() {
   useEffect(() => {
     loadQuotesFromGitHub();
     checkUpdateStatus();
+    
+    // 알림 클릭 리스너 설정
+    const notificationListener = Notifications.addNotificationReceivedListener(notification => {
+      console.log('알림 받음:', notification);
+    });
+
+    const responseListener = Notifications.addNotificationResponseReceivedListener(response => {
+      console.log('알림 클릭됨:', response);
+      // 알림 클릭 시 새로운 명언 표시
+      getNewQuote();
+    });
+
+    return () => {
+      notificationListener && Notifications.removeNotificationSubscription(notificationListener);
+      responseListener && Notifications.removeNotificationSubscription(responseListener);
+    };
   }, []);
 
   const loadQuotesFromGitHub = async () => {
