@@ -1,0 +1,47 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: 
+      - 'my-quote-app/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: my-quote-app/package-lock.json
+        
+    - name: Setup EAS CLI
+      run: npm install -g @expo/cli eas-cli
+      
+    - name: Install dependencies
+      working-directory: my-quote-app
+      run: npm ci
+      
+    - name: Setup Expo and EAS
+      working-directory: my-quote-app
+      run: |
+        npx expo install --fix
+        
+    - name: Build APK with EAS
+      working-directory: my-quote-app
+      env:
+        EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      run: |
+        eas build --platform android --profile preview --non-interactive --no-wait
+        
+    - name: Get build URL
+      working-directory: my-quote-app
+      run: |
+        echo "APK 빌드가 시작되었습니다. EAS 대시보드에서 확인하세요: https://expo.dev/accounts/rohbin00/projects/daily-wisdom-quotes/builds" 
