@@ -3,6 +3,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline, Container, Paper, Typography, Box, CircularProgress, Button, Chip } from '@mui/material';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import CategoryIcon from '@mui/icons-material/Category';
+import AddIcon from '@mui/icons-material/Add';
+import QuoteSubmission from './QuoteSubmission';
 
 const theme = createTheme({
   palette: {
@@ -39,6 +41,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState<string>('전체');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [submissionOpen, setSubmissionOpen] = useState(false);
 
   const categories = ['전체', '성공', '인생', '도전', '희망', '자기계발'];
 
@@ -254,9 +257,17 @@ function App() {
                   variant="contained" 
                   onClick={handleRefresh}
                   startIcon={<RefreshIcon />}
-                  sx={{ mt: 2 }}
+                  sx={{ mt: 2, mr: 1 }}
                 >
                   다시 시도
+                </Button>
+                <Button 
+                  variant="outlined" 
+                  onClick={() => setSubmissionOpen(true)}
+                  startIcon={<AddIcon />}
+                  sx={{ mt: 2 }}
+                >
+                  명언 제출
                 </Button>
               </Box>
             ) : currentQuote ? (
@@ -310,6 +321,19 @@ function App() {
                   >
                     🔄 GitHub 동기화
                   </Button>
+                  
+                  <Button 
+                    variant="contained" 
+                    onClick={() => setSubmissionOpen(true)}
+                    startIcon={<AddIcon />}
+                    size="small"
+                    sx={{ 
+                      background: 'linear-gradient(45deg, #FF6B6B, #4ECDC4)',
+                      fontWeight: 'bold'
+                    }}
+                  >
+                    명언 제출
+                  </Button>
                 </Box>
               </>
             ) : null}
@@ -326,6 +350,12 @@ function App() {
           </Box>
         </Box>
       </Container>
+      
+      {/* 명언 제출 다이얼로그 */}
+      <QuoteSubmission 
+        open={submissionOpen} 
+        onClose={() => setSubmissionOpen(false)} 
+      />
     </ThemeProvider>
   );
 }
